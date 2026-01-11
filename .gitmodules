@@ -1,12 +1,12 @@
+[submodule "SDL"]
+	path = sdl3-sys/SDL
+	url = https://github.com/libsdl-org/SDL
 [submodule "SDL3_gfx"]
 	path = sdl3-gfx-sys/SDL3_gfx
 	url = https://github.com/sabdul-khabir/SDL3_gfx
 [submodule "SDL_ttf"]
 	path = sdl3-ttf-sys/SDL_ttf
 	url = https://github.com/libsdl-org/SDL_ttf
-[submodule "SDL"]
-	path = sdl3-sys/SDL
-	url = https://github.com/libsdl-org/SDL
 [submodule "SDL_image"]
 	path = sdl3-image-sys/SDL_image
 	url = https://github.com/libsdl-org/SDL_image
