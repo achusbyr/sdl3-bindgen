@@ -1,0 +1,16 @@
+[package]
+name = "sdl3-image-sys"
+version = "0.1.0"
+edition = "2024"
+license = "Zlib"
+repository = "https://github.com/achusbyr/sdl3-bindgen"
+links = "SDL3_image"
+
+[dependencies]
+sdl3-sys = { path = "../sdl3-sys" }
+
+[build-dependencies]
+sdl3-build = { path = "../sdl3-build" }
+
+[lints.clippy]
+approx_constant = "allow"

@@ -1,0 +1,12 @@
+[package]
+name = "sdl3-build"
+version = "0.1.0"
+license = "Zlib"
+repository = "https://github.com/achusbyr/sdl3-bindgen"
+edition = "2024"
+
+[dependencies]
+pkg-config = "*"
+vcpkg = "*"
+cmake = "*"
+bindgen = "*"

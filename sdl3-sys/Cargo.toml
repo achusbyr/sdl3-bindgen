@@ -1,0 +1,18 @@
+[package]
+name = "sdl3-sys"
+version = "0.1.0"
+edition = "2024"
+license = "Zlib"
+repository = "https://github.com/achusbyr/sdl3-bindgen"
+links = "SDL3"
+
+[build-dependencies]
+sdl3-build = { path = "../sdl3-build" }
+
+[features]
+default = ["build-from-source"]
+build-from-source = []
+static-link = []
+
+[lints.clippy]
+approx_constant = "allow"

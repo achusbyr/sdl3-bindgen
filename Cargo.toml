@@ -1,0 +1,3 @@
+[workspace]
+resolver = "3"
+members = ["sdl3-build", "sdl3-sys", "sdl3-gfx-sys", "sdl3-ttf-sys", "sdl3-image-sys"]
